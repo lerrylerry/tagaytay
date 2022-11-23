@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Caudex:ital@1&family=Inter:wght@400;800;900&family=Kaushan+Script&display=swap');
+
+.container{
+    text-align: center;
+}
+
+.container > h1{
+    font-weight: 400;
+    font-size: 96px;
+    font-family: 'Inter', sans-serif;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.container > p{
+    font-weight: 400;
+    font-size: 32px;
+    font-family: 'Caudex', serif;
+    line-height: 41px;
+    margin-bottom: 125px;
+}
+
+.container > small{
+    font-weight: 400;
+    font-size: 16px;
+    font-family: 'Caudex', serif;
+    line-height: 21px;
+}
+
+.container > hr{
+    width: 693px;
+    height: 5px;
+    background-color: #000;
+    margin-bottom: 50px;
+}
+
+.navbarActions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    margin-bottom: 90px;
+}

@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Caudex:ital@1&family=Inter:wght@800;900&family=Kaushan+Script&display=swap');
+
+.container{
+    border: 1000px;
+}
+
+.container .row {
+    display: flex;
+    width: 100%
+  }
+
+.container .col_1{
+    width: 33.33%;
+    background-color: #717959;
+    opacity: 0.9;
+}
+
+.container .col_1 > img, .container .col_2 > img, .container .col_3 > img{
+    width: 100%;
+    padding: 10px 10px 0px 10px;
+}
+
+.container .col_1 > p, .container .col_2 > p, .container .col_3 > p{
+    margin: 0;
+    margin-bottom: 122px;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+}
+    
+
+.container .col_2{
+    width: 33.33%;
+    background-color: #89778D
+}
+
+.container .col_3{
+    width: 33.33%;
+    background-color: #EC9B82;
+}

@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Caudex:ital@1&family=Inter:wght@800;900&family=Kaushan+Script&display=swap');
+
+.container{
+    margin: 0;
+    background-image: url("../public/images/taal.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 64px;
+    text-align: center;
+    height: 893px;
+}
+
+.container .transparent{
+    background-image: url("../public/images/transparent.png");
+    height: 333px;
+}
+
+.container .transparent > h1{
+    color: #E53434;
+    font-size: 64px;
+    font-family: 'Kaushan Script', cursive;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.container .transparent > h2{
+    color: #F5F5F5;
+    font-size: 64px;
+    font-weight: 800;
+    font-family: 'Inter', sans-serif;
+    margin-top: 10px;
+}
+
+.container .transparent > h2::first-letter{
+    font-size: 94px;
+}
+
+.container .white{
+    background: rgba(217, 217, 217, 0.69);
+    margin: 0 10%;
+}
+
+.container .white > p{
+    color: #000;
+    font-size: 32px;
+    font-style: italic;
+    font-family: 'Caudex', serif;
+}
