@@ -1,0 +1,126 @@
+.container {
+  display: flex;
+  background-color: rgb(255, 255, 255);
+  background-repeat: no-repeat;
+  object-fit: cover;
+  height: 100vh;
+
+}
+  
+  .container .taal {
+    background-image: url("../public/images/taal-aerial.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 575px;
+    height: 400px;
+    margin: auto;
+    padding: 0%;
+    margin-top: 1%;
+  }
+
+  .container p{
+    color: #000;
+    font-size: 24px;
+    font-style: italic;
+    font-family: 'Caudex', serif;
+    text-align: center;
+    opacity: 0;
+    color: white;
+    position: relative;
+    margin-top: auto;
+    padding: 5px;
+  }
+
+  .container .taal > p {
+    line-height: 55px;
+  }
+
+  .container p:hover {
+    opacity: 1;
+    background: rgba(0, 0, 0, 0.3);
+  }
+
+  .container h1 {
+    color: #E53434;
+    font-size: 64px;
+    font-family: 'Kaushan Script', cursive;
+    text-align: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+  }
+
+  .container .skr {
+    background-image: url("../public/images/sky-ranch.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 575px;
+    height: 400px;
+    margin: auto;
+    padding: 0%;
+    margin-top: 1%;
+  }
+
+  .container .skr > p {
+    line-height: 39px;
+  }
+
+  .container .oll {
+    background-image: url("../public/images/our-lady.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 575px;
+    height: 400px;
+    margin: auto;
+    padding: 0%;
+    margin-top: 1%;
+  }
+
+  .container .oll > p{
+    line-height: 48.7px;
+  }
+
+  .container .pg {
+    background-image: url("../public/images/picnic-groove.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 575px;
+    height: 400px;
+    margin: auto;
+    padding: 0%;
+    margin-top: 1%;
+  }
+
+  .container .pg > p{
+    line-height:55.5px;
+  }
+
+  .container .pm {
+    background-image: url("../public/images/puzzle-mansion.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 575px;
+    height: 400px;
+    margin: auto;
+    padding: 0%;
+    margin-top: 1%;
+  }
+
+  .container .pm > p{
+    line-height:35.5px;
+  }
+
+  .container .pp {
+    background-image: url("../public/images/peoples-park.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 575px;
+    height: 400px;
+    margin: auto;
+    padding: 0%;
+    margin-top: 1%;
+  }
+
+  .container .pp > p{
+    line-height:55px;
+  }

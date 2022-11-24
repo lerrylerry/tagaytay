@@ -2,17 +2,18 @@
 
 .container{
     margin: 0;
-    background-image: url("../public/images/taal.png");
+    background: rgba(255, 255, 255, 0);
     background-repeat: no-repeat;
     background-size: cover;
     font-size: 64px;
     text-align: center;
-    height: 893px;
+    height: auto;
+    margin:auto;
 }
 
 .container .transparent{
-    background-image: url("../public/images/transparent.png");
-    height: 333px;
+    background: rgba(40, 172, 201, 0.1);
+    height: 210px;
 }
 
 .container .transparent > h1{
@@ -42,7 +43,7 @@
 
 .container .white > p{
     color: #000;
-    font-size: 32px;
+    font-size: 28px;
     font-style: italic;
     font-family: 'Caudex', serif;
 }

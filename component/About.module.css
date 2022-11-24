@@ -2,11 +2,13 @@
 
 .container{
     text-align: center;
+    background-color: white;
+    height: 100vh;
 }
 
 .container > h1{
     font-weight: 400;
-    font-size: 96px;
+    font-size: 70px;
     font-family: 'Inter', sans-serif;
     margin-top: 15px;
     margin-bottom: 30px;
@@ -14,7 +16,7 @@
 
 .container > p{
     font-weight: 400;
-    font-size: 32px;
+    font-size: 28px;
     font-family: 'Caudex', serif;
     line-height: 41px;
     margin-bottom: 125px;
@@ -40,4 +42,8 @@
     align-items: center;
     gap: 60px;
     margin-bottom: 90px;
+}
+
+.gap {
+    height: 50px;
 }

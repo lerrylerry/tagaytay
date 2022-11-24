@@ -1,8 +1,10 @@
 import styles from "./About.module.css";
+import Gap from "../component/Gap";
 
 const About = () => {
     return(
         <div className={styles.container}>
+            <div className={styles.gap}></div>
             <h1>About Us</h1>
             <hr/>
             <p>Explore and unwined in Tagaytay City! We offer a places to visit and<br/>delicious delicacies to try with. </p>

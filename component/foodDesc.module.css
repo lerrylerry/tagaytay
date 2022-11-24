@@ -1,0 +1,126 @@
+.container {
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    height: 100vh;
+  
+  }
+  
+  .container .bulalopic {
+    background-image: url("../public/images/bulalo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 575px;
+    height: 400px;
+    margin: auto;
+    padding: 0%;
+    margin-top: 1%;
+  }
+  
+  .container p{
+    color: #000;
+    font-size: 24px;
+    font-style: italic;
+    font-family: 'Caudex', serif;
+      text-align: center;
+      opacity: 0;
+      color: white;
+      position: relative;
+      margin-top: auto;
+      padding: 5px;
+    }
+    .container .bulalopic > p {
+        line-height: 43px;
+      }
+  
+    .container p:hover {
+      opacity: 1;
+      background: rgba(0, 0, 0, 0.3);
+    }
+
+    .container h1 {
+        color: #E53434;
+        font-size: 64px;
+        font-family: 'Kaushan Script', cursive;
+        text-align: center;
+        justify-content: center;
+        padding: 0;
+        margin: 0;
+      }
+
+      .container .champoradopic {
+        background-image: url("../public/images/champorado.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 575px;
+        height: 400px;
+        margin: auto;
+        padding: 0%;
+        margin-top: 1%;
+      }
+
+      .container .champoradopic > p {
+        line-height: 55px;
+      }
+      .container .sataypic {
+        background-image: url("../public/images/chicken-satay.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 575px;
+        height: 400px;
+        margin: auto;
+        padding: 0%;
+        margin-top: 1%;
+      }
+
+      .container .sataypic > p {
+        line-height: 55px;
+      }
+
+      .container .bukopiepic {
+        background-image: url("../public/images/buko-pie.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 575px;
+        height: 400px;
+        margin: auto;
+        padding: 0%;
+        margin-top: 1%;
+      }
+
+      .container .bukopiepic > p {
+        line-height: 98px;
+      }
+
+      .container .bukotartpic {
+        background-image: url("../public/images/buko-tarts.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 575px;
+        height: 400px;
+        margin: auto;
+        padding: 0%;
+        margin-top: 1%;
+      }
+
+      .container .bukotartpic > p {
+        line-height: 55px;
+      }
+
+      .container .piayapic {
+        background-image: url("../public/images/piaya.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 575px;
+        height: 400px;
+        margin: auto;
+        padding: 0%;
+        margin-top: 1%;
+      }
+
+      .container .piayapic > p {
+        line-height: 98px;
+      }
+
