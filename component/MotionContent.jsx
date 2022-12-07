@@ -15,6 +15,14 @@ const MotionContent = () => {
                 height={400}
             />
         </div>
+        <div className={styles.center}>
+          <Image
+            src="/images/capimage1.png"
+            alt="capturedimage"
+            width={500}
+            height={400}
+          />
+        </div>
     </div>
   );
 };
