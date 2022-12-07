@@ -1,5 +1,6 @@
 import styles from "./About.module.css";
 import Gap from "../component/Gap";
+import Link from "next/link"
 
 const About = () => {
     return(
@@ -15,6 +16,8 @@ const About = () => {
                 <a className={styles.image4} href="https://www.whatsapp.com"><img src="/images/WhatsApp.png" alt="whatsapp" /></a>
             </div>
             <small>Designed by Team RaspLerry Pi<br/>(Bautista, Baybay,  Fetalbo, Galano, Laungayan, and Mana-ay)</small>
+            <Gap/>
+            <div><Link className={styles.hl} href="/motion">click here</Link> to see other projects of our team...</div>
         </div>
     );
 };
