@@ -1,4 +1,4 @@
-import Hero from "../component/hero";
+import Hero from "../component/Hero";
 import Motion from "../component/Motion";
 import MotionContent from "../component/MotionContent";
 const Home = () => {

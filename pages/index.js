@@ -1,4 +1,4 @@
-import Hero from "../component/hero";
+import Hero from "../component/Hero";
 import Navbar from "../component/NavbarHome";
 import Gap from "../component/Gap";
 import Head from "next/head";
